@@ -1,14 +1,18 @@
 /* Estilos generales */
 body {
     font-family: 'Georgia', serif;
-    margin: 10px;
-    padding: 10px;
-    text-align:justify;
+    margin: 0; 
+    padding: 0; 
+    text-align: justify;
     background-image: url('fondo.jpg'); 
-    background-size: cover;
-    background-position: center;
+    background-size: cover; /* Hace que la imagen cubra todo el viewport */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+    background-attachment: fixed; /* La imagen permanece fija */
     color: white;
+    min-height: 100vh; /* Asegura que el body tenga al menos el tamaño completo de la pantalla */
 }
+
 
 /* Estilo del título principal */
 h1 {
