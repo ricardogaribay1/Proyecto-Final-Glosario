@@ -15,9 +15,9 @@ h1 {
     color: rgb(7, 26, 44);
     text-align: center;
     font-family: 'Brush Script MT', cursive; 
-    font-size: 15em;
+    font-size: 10em;
     padding: 20px; 
-    margin: 245px;
+    margin: 25px;
     text-shadow: 0 4px 8px rgba(0, 0, 139, 0.5);
 
 }
@@ -49,7 +49,7 @@ h1 {
     text-decoration: none;
     border-radius: 25px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 1em;
     transition: background-color 0.3s ease;
     box-shadow: 0 4px 8px rgba(19, 80, 235, 0.5);
 
@@ -62,7 +62,7 @@ h1 {
 /* Estilo del índice */
 #indice {
     font-family: 'Georgia', serif;
-    font-size: 5em;
+    font-size: 4em;
     margin-top: 100px;
     text-align: center;
     padding: 50px;
@@ -88,7 +88,7 @@ ol li a {
     text-decoration: none;
     color: #f7eded;
     text-shadow: 1px 1px 2px black;
-    font-size: 2.8em;
+    font-size: 1.8em;
     padding: 30px 0;
     transition: color 0.3s ease, font-weight 0.3s ease;
 }
@@ -103,13 +103,13 @@ ol li a:hover {
 .titulo-definicion {
     text-decoration: none; /* Eliminar subrayado */
     color: black; /* Color negro para todos los títulos */
-    font-size: 1.8em; /* Tamaño para el h3 */
+    font-size: 1.1em; /* Tamaño para el h3 */
     transition: all 0.3s ease; /* Transición*/
 }
 
 /* Estilo para el hover en el h3 */
 .titulo-definicion:hover {
-    font-size: 2em; /* Aumentar tamaño de la letra al pasar el mouse */
+    font-size: 1.5em; /* Aumentar tamaño de la letra al pasar el mouse */
     color: black; 
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Agregar sombra al texto */
 }
@@ -117,7 +117,7 @@ ol li a:hover {
 /* Estilos para los párrafos */
 p {
     font-family: 'Georgia', serif; /
-    font-size: 1.2em; /* Tamaño de fuente*/
+    font-size: 0.9em; /* Tamaño de fuente*/
     line-height: 1.6; /* Espaciado entre líneas */
     margin-bottom: 20px; /* Separación entre párrafos */
     color: black; /* Color para los párrafos */
