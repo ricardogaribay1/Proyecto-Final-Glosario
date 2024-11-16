@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+    font-family: 'Georgia', serif;
+    margin: 10px;
+    padding: 10px;
+    text-align:justify;
+    background-image: url('fondo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Estilo del título principal */
+h1 {
+    color: rgb(7, 26, 44);
+    text-align: center;
+    font-family: 'Brush Script MT', cursive; 
+    font-size: 15em;
+    padding: 20px; 
+    margin: 245px;
+    text-shadow: 0 4px 8px rgba(0, 0, 139, 0.5);
+
+}
+
+/* Estilos del titulo h1 Glosario */
+
+.titulo-glosario {
+    text-decoration: none; 
+    color: inherit; 
+    transition: all 0.3s ease; 
+}
+
+
+.titulo-glosario:hover {
+    font-size: 1.2em; 
+    color: #1c0de7;
+    text-shadow: 2px 2px 5px rgba(26, 147, 199, 0.7);
+}
+
+/* Estilo del botón */
+
+.boton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 12px 30px;
+    background-color: #18cdec;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(19, 80, 235, 0.5);
+
+}
+
+.boton:hover {
+    background-color: #325ca5;
+}
+
+/* Estilo del índice */
+#indice {
+    font-family: 'Georgia', serif;
+    font-size: 5em;
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px;
+    background-color: #441ecbcc; 
+    border-radius: 8px;
+    width: 95%;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Listado del índice */
+ol {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* tres columnas */
+    gap: 20px;
+    padding: 20px;
+    list-style-type: none;
+    text-align:center ;
+}
+
+/* Estilo de los enlaces del índice */
+ol li a {
+    text-decoration: none;
+    color: #f7eded;
+    text-shadow: 1px 1px 2px black;
+    font-size: 2.8em;
+    padding: 30px 0;
+    transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+ol li a:hover {
+    color: #6200ff;
+    font-weight: bold;
+}
+
+/* Estilos para el enlace dentro del h3 */
+
+.titulo-definicion {
+    text-decoration: none; /* Eliminar subrayado */
+    color: black; /* Color negro para todos los títulos */
+    font-size: 1.8em; /* Tamaño para el h3 */
+    transition: all 0.3s ease; /* Transición*/
+}
+
+/* Estilo para el hover en el h3 */
+.titulo-definicion:hover {
+    font-size: 2em; /* Aumentar tamaño de la letra al pasar el mouse */
+    color: black; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Agregar sombra al texto */
+}
+
+/* Estilos para los párrafos */
+p {
+    font-family: 'Georgia', serif; /
+    font-size: 1.2em; /* Tamaño de fuente*/
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-bottom: 20px; /* Separación entre párrafos */
+    color: black; /* Color para los párrafos */
+    text-align: justify; 
+}
+
+
+
