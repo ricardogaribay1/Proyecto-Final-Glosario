@@ -127,7 +127,7 @@ h3 a:hover {
     height: 5px;
     background-color: rgb(101, 21, 250);
     margin-top: 5px;
-    width: 880px; 
+    width: 300px; 
     margin-left: 20px; 
 }
 
@@ -157,7 +157,7 @@ h3 a:hover {
 
 .imagen img {
     max-width: 100%; /* Asegura que la imagen nunca sea más grande que su contenedor */
-    width: 200px; /* Define el tamaño pequeño deseado */
+    width: 400px; /* Define el tamaño deseado */
     height: auto; /* Mantiene la proporción de la imagen */
     display: block; /* Centra la imagen como bloque */
     margin: 0 auto; /* Centra la imagen horizontalmente */
