@@ -156,9 +156,11 @@ h3 a:hover {
 }
 
 .imagen img {
-    width: 500px; 
-    height: auto;  
-    display: block; 
-    margin: 0 auto; 
-    object-fit: contain; 
+    max-width: 100%; /* Asegura que la imagen nunca sea más grande que su contenedor */
+    width: 200px; /* Define el tamaño pequeño deseado */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Centra la imagen como bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    object-fit: contain; /* Ajusta la imagen al área asignada sin deformarla */
 }
+
