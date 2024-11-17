@@ -5,14 +5,13 @@ body {
     padding: 0; 
     text-align: justify;
     background-image: url('fondo.jpg'); 
-    background-size: cover; /* Hace que la imagen cubra todo el viewport */
+    background-size: cover; /* Hace que la imagen cubra todo  */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que se repita */
     background-attachment: fixed; /* La imagen permanece fija */
     color: white;
     min-height: 100vh; /* Asegura que el body tenga al menos el tamaño completo de la pantalla */
 }
-
 
 /* Estilo del título principal */
 h1 {
@@ -90,7 +89,7 @@ ol {
 /* Estilo de los enlaces del índice */
 ol li a {
     text-decoration: none;
-    color: #f7eded;
+    color: #ffffff;
     text-shadow: 1px 1px 2px black;
     font-size: 1.8em;
     padding: 30px 0;
@@ -102,31 +101,64 @@ ol li a:hover {
     font-weight: bold;
 }
 
-/* Estilos para el enlace dentro del h3 */
-
-.titulo-definicion {
-    text-decoration: none; /* Eliminar subrayado */
-    color: black; /* Color negro para todos los títulos */
-    font-size: 1.1em; /* Tamaño para el h3 */
-    transition: all 0.3s ease; /* Transición*/
-}
-
-/* Estilo para el hover en el h3 */
-.titulo-definicion:hover {
-    font-size: 1.5em; /* Aumentar tamaño de la letra al pasar el mouse */
+/* Estilo para el título h3 */
+h3 {
+    margin: 20px 0 10px;
+    font-size: 2.5em; 
+    position: relative;
     color: black; 
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Agregar sombra al texto */
+    margin-left: 40px; 
+    font-family: 'Times New Roman', serif; 
 }
 
-/* Estilos para los párrafos */
-p {
-    font-family: 'Georgia', serif; /
-    font-size: 0.9em; /* Tamaño de fuente*/
-    line-height: 1.6; /* Espaciado entre líneas */
-    margin-bottom: 20px; /* Separación entre párrafos */
-    color: black; /* Color para los párrafos */
-    text-align: justify; 
+/* Estilo para los enlaces dentro del título h3 */
+h3 a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+h3 a:hover {
+    font-size: 1.6em;
+}
+
+.line {
+    display: block;
+    height: 5px;
+    background-color: rgb(101, 21, 250);
+    margin-top: 5px;
+    width: 880px; 
+    margin-left: 20px; 
 }
 
 
+/* Estilo para la definición de los términos */
+.glosario .definicion {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
 
+/* Estilo para el texto */
+.definicion .texto {
+    width: 48%;
+    padding-left: 40px; 
+    color: rgb(243, 238, 238); 
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Times New Roman', serif; 
+    font-size: 1.5em;
+}
+
+/* Estilo para la columna de la imagen */
+.definicion .imagen {
+    width: 48%;
+    text-align: center;
+}
+
+.imagen img {
+    width: 500px; 
+    height: auto;  
+    display: block; 
+    margin: 0 auto; 
+    object-fit: contain; 
+}
